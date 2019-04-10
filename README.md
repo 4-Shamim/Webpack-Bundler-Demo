@@ -20,8 +20,8 @@
 ## Dependency : ( You can install any if needed! )
 Noting install for now.
 
-## Webpack Config: 
-```
+## Webpack Config: ( webpack.config.js )
+```javascript
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
