@@ -80,13 +80,14 @@ module.exports = {
     // new MiniCssExtractPlugin({
     //   filename: "[name].css",
     //   chunkFilenmae: "[id].css"
-    //test:
-    netest:("style/[name].min.css", {
-      test:
-    })test:
+    // }),
+    new ExtractTextPlugin("style/[name].min.css", {
+      allChunks: true
+    })
   ],
   devtool: "source-map"
 };
+
 ```
 
 ##
